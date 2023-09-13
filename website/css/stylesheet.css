@@ -22,3 +22,13 @@
 .sub-site li {
     padding-bottom: 3px;
 }
+
+.mail ul {
+    text-align: center;  
+
+}
+
+.mail li {
+    display: inline-block;
+    padding: 15px 30px;
+}
