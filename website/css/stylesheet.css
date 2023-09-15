@@ -1,3 +1,12 @@
+.website {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.website-h1 {
+    font-size: 15px;
+    text-align: center;
+}
+
 .sub-site {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,7 +31,6 @@
     background-color: #c3c2c2
 
 }
-
 
 .sub-site h1 {
     text-align: center;
