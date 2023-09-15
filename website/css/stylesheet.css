@@ -1,14 +1,42 @@
-.sub {
+.website {
     font-family: Arial, Helvetica, sans-serif;
 }
-.sub-site {
-    padding-left: 30px;
+
+.website-h1 {
+    font-size: 15px;
+    text-align: center;
 }
 
-.sub-site-h1 {
-    padding-top: 15px;
+.sub-site {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-site .navbar {
+    text-align: right;
+}
+
+.sub-site .navbar div {
+    padding: 0px 75px 0px 0px;
+} 
+
+.sub-site .navbar button {
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    background-color: #ffffff
+}
+
+.sub-site .navbar button:hover {
+    background-color: #c3c2c2
+}
+
+.sub-site h1 {
     text-align: center;
     padding-bottom: 15px;
+}
+
+.sub-site div{
+    padding-left: 30px;
 }
 
 .sub-site ul {
@@ -23,21 +51,11 @@
     padding-bottom: 3px;
 }
 
-.website {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.website-h1 {
-    font-size: 40px;
-    text-align: center;
-}
-
-.mail ul {
+.sub-site .footer ul {
     text-align: center;  
-
 }
 
-.mail li {
+.sub-site .footer li {
     display: inline-block;
     padding: 15px 30px;
 }
