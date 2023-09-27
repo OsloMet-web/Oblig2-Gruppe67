@@ -3,7 +3,7 @@
 }
 
 .website-h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -60,11 +60,35 @@
     padding: 15px 30px;
 }
 
+body{
+    background-color: #d0c1c2
+}
+
 .web-body {
     text-align: center;
-    background-color: #B59898;
+    
+
 }
 
 .web-author {
     font-size: 10px;
+}
+
+.navbarmain{
+    text-align: right;
+}
+
+.navbarmain button {
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    background-color: #ffffff
+}
+
+.navbarmain{
+    padding: 0px 75px 0px 0px;
+} 
+
+.navbarmain button:hover {
+    background-color: #c3c2c2
 }
