@@ -15,7 +15,7 @@
     text-align: right;
 }
 
-.sub-site .navbar div {
+.sub-site .navbar a {
     padding: 0px 75px 0px 0px;
 
 } 
@@ -37,7 +37,7 @@
     padding-bottom: 15px;
 }
 
-.sub-site div{
+.sub-site main{
     padding-left: 30px;
 }
 
