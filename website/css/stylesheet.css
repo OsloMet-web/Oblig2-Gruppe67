@@ -60,10 +60,6 @@
     padding: 15px 30px;
 }
 
-body{
-    background-color: #d0c1c2
-}
-
 .web-body {
     text-align: center;
     
@@ -91,4 +87,13 @@ body{
 
 .navbarmain button:hover {
     background-color: #c3c2c2
+}
+
+.website .footer ul {
+    text-align: center;  
+}
+
+.website .footer li {
+    display: inline-block;
+    padding: 15px 30px;
 }
