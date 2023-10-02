@@ -3,7 +3,7 @@
 }
 
 .website-h1 {
-    font-size: 15px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -17,7 +17,6 @@
 
 .sub-site .navbar a {
     padding: 0px 75px 0px 0px;
-
 } 
 
 .sub-site .navbar button {
@@ -29,7 +28,6 @@
 
 .sub-site .navbar button:hover {
     background-color: #c3c2c2
-
 }
 
 .sub-site h1 {
@@ -55,10 +53,42 @@
 
 .sub-site .footer ul {
     text-align: center;  
-
 }
 
 .sub-site .footer li {
     display: inline-block;
     padding: 15px 30px;
+}
+
+body{
+    background-color: #d0c1c2
+}
+
+.web-body {
+    text-align: center;
+    
+
+}
+
+.web-author {
+    font-size: 10px;
+}
+
+.navbarmain{
+    text-align: right;
+}
+
+.navbarmain button {
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    background-color: #ffffff
+}
+
+.navbarmain{
+    padding: 0px 75px 0px 0px;
+} 
+
+.navbarmain button:hover {
+    background-color: #c3c2c2
 }
