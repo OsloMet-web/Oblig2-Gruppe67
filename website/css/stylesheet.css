@@ -9,6 +9,7 @@
 
 .sub-site {
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .sub-site h1 {
@@ -49,30 +50,124 @@
     font-size: 10px;
 }
 
-.navbar{
+.sub-site body{
+    margin: 0;
+    padding: 0;
+}
+.sub-site nav {
     text-align: right;
-    padding: 15px 75px 0px 0px;
-}
+    padding: 0;  
+    background-color: #b95000;
+    overflow: hidden;
+    /* margin-top: -25px;
+    margin-bottom: -15px;*/
+} 
 
-.navbar-button {
-    cursor: pointer;
-    padding: 10px 15px 10px 15px;
-    border-radius: 20px;
-    background-color: #ffffff;
-    color: black;
-    border: black 2px solid;
-    text-decoration: none;
-}
-
-.navbar-button:hover {
-    background-color: #c3c2c2
-}
-
-.website .footer ul {
+.website .ul {
     text-align: center;  
 }
 
-.website .footer li {
+.website li {
     display: inline-block;
     padding: 15px 30px;
+}
+
+.navbar .ul{    
+    list-style: none;  
+}
+
+.navbar-list-right{
+    text-align: left; 
+}
+
+.website {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.website-h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.sub-site {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-site h1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.sub-site main{
+    padding-left: 30px;
+}
+
+.sub-site ul {
+    padding-bottom: 15px;
+}
+
+.sub-site h3 {
+    font-size: 18px;
+}
+
+.sub-site li {
+    padding-bottom: 3px;
+}
+
+.sub-site .footer ul {
+    text-align: center;  
+}
+
+.sub-site .footer li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.web-body {
+    text-align: center;
+}
+
+.web-author {
+    font-size: 10px;
+}
+
+.sub-site header {
+    margin: 0;
+    padding: 0;
+}
+
+.website .ul {
+    text-align: center;  
+}
+
+.website li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 15px 30px 10px 10px;
+    cursor: pointer;
+    color: black;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+.navbar-list-right li:hover{
+    text-decoration: underline;
+}
+
+.navbar-list-right{
+    text-align: right; 
+    float: right; 
+    margin-top: 40px;
+}
+
+.navbar-list-left{
+    text-align: left;
+    float:left;
+    font-size: 18;
+    font-weight: bolder;
 }
