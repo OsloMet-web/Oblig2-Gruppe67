@@ -1,10 +1,11 @@
 .website {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .website-h1 {
     font-size: 40px;
-    text-align: center;
+    text-align: left;
 }
 
 .sub-site {
@@ -43,11 +44,41 @@
 }
 
 .web-body {
-    text-align: center;
+    padding: 20px;
+    padding-top: 2px;
+    text-align: left;
+    width: 50%;
 }
 
 .web-author {
     font-size: 10px;
+    color: rgb(201, 149, 53);
+}
+
+.topnav {
+    background-color: #090303;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .topnav a {
+    float: right;
+    color: #68bb41;
+    text-align: left;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+#logo {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    
+  }
+
+#Tigerbilde{
+    width: 750px;
 }
 
 .sub-site body{
@@ -76,14 +107,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.website-h1 {
-    font-size: 40px;
-    text-align: center;
-}
-
-.web-body {
-    text-align: center;
-}
 
 .web-author {
     font-size: 10px;
