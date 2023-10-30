@@ -7,17 +7,73 @@
     text-align: center;
 }
 
+.web-body {
+    text-align: center;
+}
+
+.web-author {
+    font-size: 10px;
+}
+
+.navbar {
+    text-align: right;
+    padding: 30px 50px 30px 50px;
+}
+
+.sub-site .navbar {
+    text-align: right;
+    background-color: #ff8100;
+    padding: 30px 50px 30px 50px;
+}
+
+.navbar-button {
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    border: black 2px solid;
+    text-decoration: none;
+}
+
+.navbar-button-sub {
+    text-align: right;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    background-color: #ff8100;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar-button:hover {
+    background-color: #c3c2c2
+}
+
+.navbar-image {
+    width: 90px;
+    height: 66px;
+    margin-top: -22;
+    margin-bottom: -40;
+    margin-left: -20;
+    display: block;
+}
+
 .sub-site {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.sub-site body {
+    margin: 0px;
+}
+
 .sub-site h1 {
-    text-align: center;
-    padding-bottom: 15px;
+    padding-left: 30px;
+    font-size: 45px;
 }
 
 .sub-site main{
-    padding-left: 30px;
+    padding: 5px 150px 25px 150px;
 }
 
 .sub-site ul {
@@ -32,47 +88,11 @@
     padding-bottom: 3px;
 }
 
-.sub-site .footer ul {
+.sub-site .email-list ul {
     text-align: center;  
 }
 
-.sub-site .footer li {
-    display: inline-block;
-    padding: 15px 30px;
-}
-
-.web-body {
-    text-align: center;
-}
-
-.web-author {
-    font-size: 10px;
-}
-
-.navbar{
-    text-align: right;
-    padding: 15px 75px 0px 0px;
-}
-
-.navbar-button {
-    cursor: pointer;
-    padding: 10px 15px 10px 15px;
-    border-radius: 20px;
-    background-color: #ffffff;
-    color: black;
-    border: black 2px solid;
-    text-decoration: none;
-}
-
-.navbar-button:hover {
-    background-color: #c3c2c2
-}
-
-.website .footer ul {
-    text-align: center;  
-}
-
-.website .footer li {
+.sub-site .email-list li {
     display: inline-block;
     padding: 15px 30px;
 }
