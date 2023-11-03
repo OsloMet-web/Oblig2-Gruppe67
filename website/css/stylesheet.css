@@ -3,6 +3,8 @@
     font-size: 15px;
 }
 
+
+
 .website-h1 {
     font-size: 40px;
     text-align: left;
@@ -55,13 +57,16 @@
     color: rgb(201, 149, 53);
 }
 
-.topnav {
+.NavbarMainpage {
     background-color: #090303;
     overflow: hidden;
     width: 100%;
   }
 
-  .topnav a {
+.NavbarMainpage a:hover {
+    color: rgb(204, 105, 5);
+  }
+  .NavbarMainpage a {
     float: right;
     color: #68bb41;
     text-align: left;
@@ -74,8 +79,12 @@
     width: 100px;
     height: 30px;
     margin: 10px;
-    
   }
+
+#author{
+    width: 80px;
+    float: left;
+}
 
 #Tigerbilde{
     width: 750px;
