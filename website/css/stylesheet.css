@@ -45,11 +45,25 @@
     padding: 15px 30px;
 }
 
+.front-page-container{
+    background-color: gray;
+}
+
 .web-body {
+    background-color: #ffffff;
+    max-width: 800px;
     padding: 20px;
     padding-top: 2px;
     text-align: left;
-    width: 50%;
+    width: 70%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .web-body {
+        width: 100%;
+        padding: 0;
+    }
 }
 
 .web-author {
@@ -87,7 +101,8 @@
 }
 
 #Tigerbilde{
-    width: 750px;
+    width: 90%;
+    padding-left: 5%;
 }
 
 .sub-site body{
