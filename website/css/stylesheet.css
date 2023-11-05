@@ -3,50 +3,13 @@
     font-size: 15px;
 }
 
-
+.front-page-container{
+    background-color: gray;
+}
 
 .website-h1 {
     font-size: 40px;
     text-align: left;
-}
-
-.sub-site {
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-.sub-site h1 {
-    text-align: center;
-    padding-bottom: 15px;
-}
-
-.sub-site main{
-    padding-left: 30px;
-}
-
-.sub-site ul {
-    padding-bottom: 15px;
-}
-
-.sub-site h3 {
-    font-size: 18px;
-}
-
-.sub-site li {
-    padding-bottom: 3px;
-}
-
-.sub-site .email-list ul {
-    text-align: center;  
-}
-
-.sub-site .email-list li {
-    display: inline-block;
-    padding: 15px 30px;
-}
-
-.front-page-container{
-    background-color: gray;
 }
 
 .web-body {
@@ -103,6 +66,42 @@
 #Tigerbilde{
     width: 90%;
     padding-left: 5%;
+}
+
+
+.sub-site {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.sub-site h1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.sub-site main{
+    padding-left: 30px;
+}
+
+.sub-site ul {
+    padding-bottom: 15px;
+}
+
+.sub-site h3 {
+    font-size: 18px;
+}
+
+.sub-site li {
+    padding-bottom: 3px;
+}
+
+.sub-site .email-list ul {
+    text-align: center;  
+}
+
+.sub-site .email-list li {
+    display: inline-block;
+    padding: 15px 30px;
 }
 
 .sub-site body{
