@@ -34,6 +34,10 @@
     color: rgb(201, 149, 53);
 }
 
+#author_text {
+padding-left: 20%;
+}
+
 .NavbarMainpage {
     background-color: #090303;
     overflow: hidden;
