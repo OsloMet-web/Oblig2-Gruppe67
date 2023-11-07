@@ -106,11 +106,14 @@ padding-top: 1%;
 
 .sub-site .email-list ul {
     text-align: center;  
+    background-color: rgb(252, 148, 3);
+    padding-top: 50px;
 }
 
 .sub-site .email-list li {
     display: inline-block;
     padding: 15px 30px;
+    margin-bottom: 30px;
 }
 
 .sub-site body{
