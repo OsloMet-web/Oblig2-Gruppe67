@@ -11,12 +11,12 @@ html, body{
     background-color: gray;
 }
 
-.website-h1 {
+.mainpage-h1 {
     font-size: 40px;
     text-align: left;
 }
 
-.web-body {
+.mainpage-web-body {
     background-color: #ffffff;
     max-width: 800px;
     padding: 20px;
@@ -33,7 +33,7 @@ html, body{
     }
 }
 
-.web-author {
+.mainpage-text-author {
     font-size: 10px;
     color: rgb(201, 149, 53);
 }
@@ -43,16 +43,17 @@ padding-left: 12%;
 padding-top: 1%;
 }
 
-.NavbarMainpage {
+.navbar-mainpage {
     background-color: #090303;
     overflow: hidden;
     width: 100%;
   }
 
-.NavbarMainpage a:hover {
+.navbar-mainpage a:hover {
     color: rgb(204, 105, 5);
   }
-  .NavbarMainpage a {
+
+.navbar-mainpage a {
     font-size: 15px;
     float: right;
     color: #68bb41;
@@ -61,18 +62,18 @@ padding-top: 1%;
     text-decoration: none;
   }
 
-#logo {
+#oslomet-logo {
     width: 100px;
     height: 30px;
     margin: 10px;
   }
 
-#author{
+#mainpage-author-picture{
     width: 80px;
     float: left;
 }
 
-#Tigerpicture{
+#tiger-picture{
     width: 90%;
     padding-left: 5%;
 }
@@ -126,27 +127,10 @@ padding-top: 1%;
     margin: 0;
 }
 
-.website .ul {
-    text-align: center;  
-}
-
-.website li {
-    display: inline-block;
-    padding: 15px 30px;
-}
-
-.navbar .ul{    
+.subsite-navbar .ul{    
     list-style: none;  
 }
 
-.website {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.web-author {
-    font-size: 10px;
-}
 
 .sub-site nav{
     text-align: right;
@@ -171,49 +155,41 @@ padding-top: 1%;
     background-color: #c3c2c2
 }
 
-.website .footer ul {
-    text-align: center;  
-}
-
-.website .footer li {
-    display: inline-block;
-    padding: 15px 30px;
-}
 
 
-.navbar li {
+.subsite-navbar li {
     display: inline-block;
     padding: 15px 30px;
     cursor: pointer;
     }
-    .navbar-list-left{
+    .subsite-navbar-list-left{
     text-align: left;
     float: left;
     font-size: 18;
     font-weight: bolder;
     }
     
-    .navbar-list-right{
+    .subsite-navbar-list-right{
     text-align: right;
     float:right;
     font-weight: bold;
     }
-    .navbar-list-right li:hover{
+    .subsite-navbar-list-right li:hover{
         text-decoration: underline;
     }
 
-    .navbar-list-right a{
+    .subsite-navbar-list-right a{
         color: black;
         text-decoration: none;
     }
 
-    #ScreenshotPage1{
+    #screenshotPage1{
         width: 50%;
         height: 50%;
         min-width: 350px;
     }
 
-    #ScreenshotPage2{
+    #screenshotPage2{
         width: 50%;
         height: 50%;
         min-width: 350px;
